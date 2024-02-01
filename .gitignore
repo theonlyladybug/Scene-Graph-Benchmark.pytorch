@@ -6,6 +6,7 @@ _ext
 maskrcnn_benchmark.egg-info/
 build/
 dist/
+glove/
 
 # ipython/jupyter notebooks
 #*.ipynb
@@ -13,6 +14,10 @@ dist/
 
 # checkpoint
 checkpoint/
+
+# errs and logs
+*.err
+*.log
 
 # dataset
 datasets/vg/
